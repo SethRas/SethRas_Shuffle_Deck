@@ -1,4 +1,16 @@
-﻿Module Cards
+﻿'Seth Rasmussen
+'RCET 0256
+'Spring 2022
+'Shuffle The Deck
+'https://github.com/SethRas/SethRas_Shuffle_Deck.git
+
+'Write a program that deals a card from a standard deck Of 52 playing cards. 
+'The card should be a random suit And value
+'Suits: spades, clubs, hearts, diamonds
+'Values: 2-10, J, Q, K, A
+'Use a multidimensional array To track If the card has already been dealt. If so draw another random card
+'Shuffle the deck When there are no more cards left Or anytime the user chooses 
+Module Cards
     Sub Main()
         Dim cardDeck(3, 12) As Boolean
         Dim Suit As Integer
